@@ -1,0 +1,78 @@
+body {
+  margin: 0; /* Remove default margin to ensure the background covers the whole body */
+  padding: 20; 
+  background-image: url("Coffee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: sans-serif;
+
+}
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 90%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    max-width:500px;
+  }
+  .established{
+    font-style: italic;
+  }
+  h1{
+    font-size: 40px;
+    margin-top:0px;
+    margin-bottom:15px;
+  }
+  .address{
+    margin-bottom:5px;
+  }
+  hr{border-color: wheat;
+    background-color: wheat;
+    height:2px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  
+ h1,h2{
+  font-family:Impact,serif;
+  }
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .flavor,.dessert {
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%;
+  }
+/*footer*/
+a{
+  color:purple
+}
+a:visited{
+  color:brown
+}
+a:hover{
+  color:blue
+}
+a:active{
+  color:white
+}
+img{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top:-25px;
+}
